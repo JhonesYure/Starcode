@@ -1,0 +1,80 @@
+.backgound {
+    background-color: #126782;
+    height: 100%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alert {
+    width:150px;
+    height: 150px;
+    margin-top: 0%;
+}
+.txt{
+    color:white;
+    font-size:50px;
+    text-align: center;
+    font-weight:bold;
+}
+.subtxt{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.construction{
+    width:400px;
+    height:300px;
+    margin-top:2%;
+    float: right;
+    margin-right: 20%;
+}
+.info{
+    color: white;
+    font-size: 30px;
+    margin-top: 15%;
+    text-align: center;
+    font-weight: 600;
+}
+.icon
+{
+    height: 80px;
+    margin-left: 5%;
+}
+.icon-left 
+{
+    margin-left: 20%;
+}
+.icon:hover{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.footer{
+    color: white;
+    text-align: center;
+    margin-top: 11%;
+    margin-bottom: 0%;
+}
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  .c-loader{
+    animation: is-rotating 1s infinite;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 20px solid #e5e5e5;
+    border-top-color: #51d4db;
+  }
+  @keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
