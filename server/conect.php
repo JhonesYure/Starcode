@@ -1,5 +1,5 @@
 <?php
-$servername = "https://auth-db891.hstgr.io/index.php?db=u820043173_contato";
+$servername = "https://auth-db891.hstgr.io";
 $username = "u820043173_contato";
 $password = "kU:=B^3A+";
 $dbname = "u820043173_contato";
