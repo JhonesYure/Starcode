@@ -21,7 +21,7 @@
         
             // Configurações do e-mail
             $destinatario = "atendimento@starcodedigital.com.br";
-            $assunto = "Mensagem do formulario contato";
+            $title = "Mensagem do formulario de contato";
         
             // Corpo do e-mail
             $mensagem_email = "Nome: " . $nome . "\n";
@@ -31,7 +31,7 @@
             $mensagem_email .= "Mensagem: \n" . $mensagem . "\n";
         
             // Envia o e-mail
-            if (mail($destinatario, $assunto, $mensagem_email)) {
+            if (mail($destinatario, $title, $mensagem_email)) {
                 echo "";
             } else {
                 echo "";
