@@ -108,19 +108,19 @@
                 <div class="img-form">
                   <form id="meu-form" action="contato.php" method="POST" onsubmit="return validateForm()">
                     <label for="nome"></label><br>
-                    <input type="text" placeholder="Nome" id="nome" name="nome" class="input-form" required><br>
+                    <input type="text" placeholder="Nome" id="nome" name="nome" class="input-form" ><br>
 
                     <label for="telefone"></label><br>
                     <input type="text" placeholder="Telefone" id="telefone" name="telefone" class="input-form"><br>
 
                     <label for="email"></label><br>
-                    <input type="email" placeholder="E-mail" id="email" name="email" class="input-form" required><br>
+                    <input type="email" placeholder="E-mail" id="email" name="email" class="input-form" ><br>
 
                     <label for="assunto"></label><br>
                     <input type="text" placeholder="Assunto" id="assunto" name="assunto" class="input-form"><br>
                     
                     <label for="mensagem"></label><br>
-                    <textarea type="text" placeholder="Mensagem" id="mensagem" name="mensagem" class="box-form" required></textarea><br><br>
+                    <textarea type="text" placeholder="Mensagem" id="mensagem" name="mensagem" class="box-form" ></textarea><br><br>
                     <div class="">
                       <button type="submit" class="animated-button" value="Enviar">Enviar</button>
                       <!-- <input type="submit" class="animated-button" value="Enviar"> -->
@@ -225,7 +225,7 @@
     //VALIDAR FORMULARIO
     function validateForm() {
       // Obtenha o formulário e os campos de entrada
-      var form = document.getElementById("myForm");
+      var form = document.getElementById("meu-form");
       var name = form.elements["nome"];
       var email = form.elements["email"];
       var mensagem = form.elements["mensagem"];
