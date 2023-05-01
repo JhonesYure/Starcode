@@ -15,7 +15,7 @@
     /* $response = array('success' => true, 'message' => 'Formulário enviado com sucesso!');
     echo json_encode($response); */
     if ($conn->query($sql) === TRUE) {
-        echo "Mensagem enviada com sucesso!";
+        echo "A StarCode entrará em contato.";
         
       } else {
         echo "Erro ao enviar mensagem: " . $conn->error;
