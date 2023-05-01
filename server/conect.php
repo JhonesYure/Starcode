@@ -1,5 +1,5 @@
 <?php
-$servername = "auth-db891.hstgr";
+$servername = "149.100.155.1";
 $username = "u820043173_contato";
 $password = "kU:=B^3A+";
 $dbname = "u820043173_contato";
