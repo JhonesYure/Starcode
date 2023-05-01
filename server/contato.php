@@ -19,7 +19,7 @@
     $assunto=$_POST['assunto'];
     $mensagem=$_POST['mensagem'];
 
-    $sql= "INSERT INTO contato (nome, telefone, email, assunto, mensagem) VALUES ('$nome', '$telefone', '$email','$assunto','$mensagem')";
+    $sql= "INSERT INTO `contato`(`idcontato`, `nome`, `telefone`, `email`, `assunto`, `mensagem`) VALUES ('$','$nome','$telefone','$email','$assunto','$mensagem')";
 
     if(mysqli_query($conexao, $sql))
     {
