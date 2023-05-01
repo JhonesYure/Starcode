@@ -22,4 +22,27 @@
       }
       
       $conn->close();
+
+      //EMAIL 
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $nome = $_POST["nome"];
+        $email = $_POST["email"];
+        $mensagem = $_POST["assunto"];
+    
+        // Configurações do e-mail
+        $destinatario = "atendimento@starcodedigital.com.br";
+        $assunto = "Mensagem do formulário de contato";
+    
+        // Corpo do e-mail
+        $mensagem_email = "Nome: " . $nome . "\n";
+        $mensagem_email .= "E-mail: " . $email . "\n";
+        $mensagem_email .= "Mensagem: \n" . $mensagem . "\n";
+    
+        // Envia o e-mail
+        if (mail($destinatario, $assunto, $mensagem_email)) {
+            echo "E-mail enviado com sucesso!";
+        } else {
+            echo "Ocorreu um erro ao enviar o e-mail.";
+        }
+    }
 ?>
