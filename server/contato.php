@@ -28,10 +28,10 @@
             $mensagem_email = "Telefone: " . $telefone . "\n";
             $mensagem_email .= "E-mail: " . $email . "\n";
             $mensagem_email = "Assunto: " . $assunto . "\n";
-            $mensagem_email .= "Mensagem: \n" . $mensagem . "\n";
+            $mensagem_email .= "Mensagem: " . $mensagem . "\n";
         
             // Envia o e-mail
-            if (mail($destinatario,$nome,$telefone,$email, $title, $mensagem_email)) {
+            if (mail($destinatario, $title, $mensagem_email)) {
                 echo "";
             } else {
                 echo "";
