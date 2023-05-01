@@ -20,7 +20,7 @@
             $mensagem = $_POST["mensagem"];
         
             // Configurações do e-mail
-            $destinatario = "atendimento@starcodedigital.com.br";
+            $destinatario = "contato@starcodedigital.com.br";
             $title = "Mensagem do formulario de contato";
         
             // Corpo do e-mail
