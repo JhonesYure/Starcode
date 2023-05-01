@@ -9,8 +9,8 @@
     $assunto=$_POST['assunto'];
     $mensagem=$_POST['mensagem'];
 
-   $result = mysqli_query($conexao, "INSERT INTO contato(idcontato, nome, telefone, email, assunto, mensagem) 
-    VALUES ('$','$nome','$telefone','$email','$assunto','$mensagem')");
+   $result = mysqli_query($conexao, "INSERT INTO contato(`idcontato`, `nome`, `telefone`, `email`, `assunto`, `mensagem`) 
+    VALUES ('','$nome','$telefone','$email','$assunto','$mensagem')");
 
     if(mysqli_query($conexao, $sql))
     {
