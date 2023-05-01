@@ -31,7 +31,7 @@
             $mensagem_email .= "Mensagem: \n" . $mensagem . "\n";
         
             // Envia o e-mail
-            if (mail($destinatario, $title, $mensagem_email)) {
+            if (mail($destinatario,$nome,$telefone,$email, $title, $mensagem_email)) {
                 echo "";
             } else {
                 echo "";
