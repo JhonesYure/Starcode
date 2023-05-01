@@ -11,11 +11,15 @@
 
     $sql = "INSERT INTO contatos (nome, telefone, email, assunto, mensagem) VALUES ('$nome','$telefone', '$email','$assunto', '$mensagem')";
 
-    if ($conn->query($sql) === TRUE) {
-        echo "Mensagem enviada com sucesso";
+
+    $response = array('success' => true, 'message' => 'Formulário enviado com sucesso!');
+    echo json_encode($response);
+    /* if ($conn->query($sql) === TRUE) {
+        echo "Mensagem enviada com sucesso!";
+        
       } else {
         echo "Erro ao enviar mensagem: " . $conn->error;
       }
       
-      $conn->close();
+      $conn->close(); */
 ?>
