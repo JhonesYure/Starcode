@@ -25,9 +25,7 @@
         
             // Corpo do e-mail
             $mensagem_email = "Nome: " . $nome . "\n";
-            $mensagem_email = "Telefone: " . $telefone . "\n";
             $mensagem_email .= "E-mail: " . $email . "\n";
-            $mensagem_email = "Assunto: " . $assunto . "\n";
             $mensagem_email .= "Mensagem: " . $mensagem . "\n";
         
             // Envia o e-mail
