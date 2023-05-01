@@ -1,16 +1,6 @@
 <?php
-    /* include("conect.php"); */
-    $servername = "149.100.155.1";
-    $username = "u820043173_contato";
-    $password = "Yure1995+";
-    $dbname = "u820043173_contato";
-
-    $conn = mysqli_connect($servername, $username, $password, $dbname);
-
-    if (!$conn) {
-        die("Conexão falhou: " . mysqli_connect_error());
-    }
-    echo "Conexão bem sucedida!";
+    include_once("conect.php");
+   
    
     
     $nome=$_POST['nome'];
@@ -19,7 +9,8 @@
     $assunto=$_POST['assunto'];
     $mensagem=$_POST['mensagem'];
 
-    $sql= "INSERT INTO `contato`(`idcontato`, `nome`, `telefone`, `email`, `assunto`, `mensagem`) VALUES ('$','$nome','$telefone','$email','$assunto','$mensagem')";
+   $result = mysqli_query($conexao, "INSERT INTO contato(idcontato, nome, telefone, email, assunto, mensagem) 
+    VALUES ('$','$nome','$telefone','$email','$assunto','$mensagem')");
 
     if(mysqli_query($conexao, $sql))
     {
