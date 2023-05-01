@@ -9,15 +9,13 @@
     $assunto=$_POST['assunto'];
     $mensagem=$_POST['mensagem'];
 
-   $result = mysqli_query($conexao, "INSERT INTO contato(`idcontato`, `nome`, `telefone`, `email`, `assunto`, `mensagem`) 
-    VALUES ('','$nome','$telefone','$email','$assunto','$mensagem')");
+    $sql = "INSERT INTO contato (nome, telefone, email, assunto, mensagem) VALUES ('$nome','$telefone', '$email','$assunto', '$mensagem')";
 
-    if(mysqli_query($conexao, $sql))
-    {
-        echo "Enviado com sucesso";
-    }
-    else{
-        echo "Erro".mysqli_connect_error($conexao);
-    }
-    mysqli_close($conexao);
+    if ($conn->query($sql) === TRUE) {
+        echo "Mensagem enviada com sucesso";
+      } else {
+        echo "Erro ao enviar mensagem: " . $conn->error;
+      }
+      
+      $conn->close();
 ?>
