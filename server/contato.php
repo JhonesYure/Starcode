@@ -9,7 +9,7 @@
     $assunto=$_POST['assunto'];
     $mensagem=$_POST['mensagem'];
 
-    $sql = "INSERT INTO contato (nome, telefone, email, assunto, mensagem) VALUES ('$nome','$telefone', '$email','$assunto', '$mensagem')";
+    $sql = "INSERT INTO contatos (nome, telefone, email, assunto, mensagem) VALUES ('$nome','$telefone', '$email','$assunto', '$mensagem')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Mensagem enviada com sucesso";
