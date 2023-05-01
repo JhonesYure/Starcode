@@ -106,7 +106,7 @@
                   Contato
                 </h1>
                 <div class="img-form">
-                  <form id="meu-form" action="contato.php" method="POST" onsubmit="return ">
+                  <form id="meu-form" action="contato.php" method="POST" >
                     <label for="nome"></label><br>
                     <input type="text" placeholder="Nome" id="nome" name="nome" class="input-form" required><br>
 
@@ -222,7 +222,7 @@
       xhr.send(new FormData(form));
     });
   </script>
-  Este código adiciona um listener de evento para o formulário HTML que envia os dados do formulário para o arquivo PHP usando uma solicitação AJAX. Quando a solicitação é concluída, a resposta do servidor é exibida em um alerta. Note que você deve substituir o valor 'processa-form.php' com o caminho para o seu arquivo PHP que processa o formulário.
+  
   
   
   
