@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+    .image-opt{
+      display: none;
+    }
+}
+.image-opt
+{
+    width: 80%;
+    height: 80%;
+    margin-top: 15%;
+}
+.title-opt
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30%;
+    text-align: center;
+}
+.title-man
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.txt-man
+{
+    font-weight: 600;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.image-man
+{
+    width: 70%; 
+    height: 70%;
+    float: right;
+    margin-top: 30%;
+}

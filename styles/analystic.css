@@ -1,0 +1,144 @@
+.back-blog-color
+{
+    background-color: #126782;
+}
+.back
+{
+    color: black;
+    font-weight:500;
+    font-size: 30px;
+    margin-left: 0%;
+    text-decoration: none;
+}
+.back:hover
+{
+    color: #126782;
+    
+}
+.img-analystic 
+{
+    float: left;
+    position: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 40%;
+}
+.title-analystic 
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 80px;
+}
+@media (max-width: 767px) {
+    .img-analystic{
+      display: none;
+    }
+}
+.title-article 
+{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+}
+.txt-article
+{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-weight: 600;
+}
+.gestao 
+{
+    margin-left: 7%;
+}
+.title-gestao 
+{
+    font-weight: bold;
+    font-size: 50px;
+}
+.sub-gestao
+{
+    font-weight: 600;
+    margin-top: 5%;
+}
+.img-data
+{
+    width: 100%;
+    height: 80%;
+}
+.photo-dep
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 350px;
+    margin-top: 3%;
+   
+    float: right;
+}
+.description-dep
+{
+    text-align: center;
+    color: white;
+    font-weight:700;
+    margin-top: 12%;
+}
+.info-dep
+{
+    /* margin-top: 70%; */
+    float: right;
+    margin-left: 15%;
+    color: white;
+    font-weight: 700;
+}
+.photo-dep-l
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 350px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    float: left;
+}
+.description-dep-l
+{
+    
+    color: white;
+    font-weight:700;
+    margin-top: 10%;
+}
+.info-dep-l
+{
+    /* margin-top: 70%; */
+    float: left;
+    margin-left: 10%;
+    color: white;
+    font-weight: 700;
+}
+.espec 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+button 
+{
+    border-radius: 5px;
+    background-color: #126782;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+button:hover 
+{
+    background-color: #023047;
+    color: aqua;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

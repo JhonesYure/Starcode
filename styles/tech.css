@@ -1,0 +1,29 @@
+.icon-tech{
+    height: 50px;
+    float: right;
+    margin: 1%;
+  }
+.title-tech 
+{
+    color: #001233;
+    font-weight: bold;
+    text-align: center;
+}
+.tech-icon{
+    width: 100px;
+    height: 100px;
+    margin-top: 25%;
+    align-items: center;
+    justify-content: center;
+  }
+  .tech-icon:hover{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .center-tech{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

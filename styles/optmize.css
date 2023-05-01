@@ -1,0 +1,38 @@
+@media (max-width: 767px){
+    .img-optmize{
+        display: none;
+    }
+}
+.img-optmize
+{
+    width: 90%;
+    height: 75%;
+    margin-top: 15%;   
+}
+.title-optmize 
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25%;
+}
+.title-txt
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+.txt-oti
+{
+    font-weight: 500;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.img-opt
+{
+    width: 100%;
+    margin-top:50%;
+    margin-bottom: 10%;
+}

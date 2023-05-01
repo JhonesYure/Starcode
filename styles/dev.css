@@ -1,0 +1,36 @@
+.image-dev
+{
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+@media (max-width: 767px) {
+    .image-dev, .imageweb{
+      display: none;
+    }
+}
+.title-dev
+{
+    color: white;
+    font-size: 50px;
+    margin-top: 20%;
+    
+    font-weight: bold;
+}
+.txt-dev,.title-mobile
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+.subtxt-dev
+{
+    text-align: center;
+    font-weight: 500;
+}
+.imageweb
+{
+    width: 100%;
+}

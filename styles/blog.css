@@ -1,0 +1,138 @@
+.back-blog-color 
+{
+    background-color: #126782;
+}
+.back-blog
+{
+    background-image: url(/images/blogindex.png);
+    background-size: cover;
+	/* background-position: center; */
+    height: 494px;
+}
+.title-blog 
+{
+  font-weight:bold;
+  font-size: 50px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+}
+.sub-blog 
+{
+    font-weight:400;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
+.analystic-image 
+{
+    object-fit: cover;
+    width: 100%; 
+    height: 100%;
+    max-height: 500px;
+}
+#picture-blog 
+{
+    padding: 0;
+    margin: 0;
+    /* position: relative; */
+    /* top: 0;
+    left: 0; */
+    /* min-width: 480px; */
+    min-height: 480px;
+    max-height: 80%;
+    max-width: 100%;
+    float: left;
+    /* margin-right: 0; */
+}
+.title-blog-r 
+{
+    text-align: center;
+    color: #001233;
+    font-weight: bold;
+    /* font-size: 50px; */
+    margin-top: 10%;
+    /* margin-left: 10%; */
+}
+.sub-blog-r 
+{
+    text-align: center;
+    color: #001233;
+    font-weight: 400;
+    margin-top: 5%;
+    /* margin-left: 10%; */
+}
+.icon-blog-r 
+{
+    float: right;
+    width: 70px;
+    height: 50px;
+    margin-left: 100%;
+}
+.button-center
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.button
+{
+    background-color: #126782;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 200px;
+    margin-bottom: 10%;
+    margin-top: 50%;
+   
+}
+.button:hover 
+{
+    background-color: #001233;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.icon-blog-l 
+{
+    width: 80px;
+    height: 50px;
+    margin-top: 1%;
+}
+.title-blog-l 
+{
+    text-align: center;
+    color: white;
+    /* font-size: 50px; */
+    font-weight: bold;
+}
+.sub-blog-l 
+{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-top: 5%;
+}
+.button-l
+{
+    background-color: white;
+    color: #126782;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 200px;
+    margin-bottom: 10%;
+    margin-top: 30%;
+   
+}
+.button-l:hover 
+{
+    background-color: #001233;
+    color: white;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

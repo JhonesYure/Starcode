@@ -1,0 +1,52 @@
+.back-color-footer 
+{
+    background-color: #023047;
+   
+}
+.icon-footer 
+{
+    width: 300px;
+    height: 180px;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+.title-footer{
+    color: white;
+    font-weight: bold;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .txt-footer{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0%;
+    text-decoration: none;
+  }
+  .txt-footer:hover{
+    color: #126782;
+  }
+  .txt-info{
+    margin-top: 5%;
+  }
+  .icon-rede{
+    width:50px;
+    height: 50px;
+    justify-content: center;
+    display: block;
+    margin: 0px auto;
+  }
+  .icon-rede:hover{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .copyright{
+    color: white;
+    text-align: center;
+   
+  }

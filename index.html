@@ -5,21 +5,396 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="icon" href="images/iconindex.png">
+        <meta name="description" content="Descrição da página em até 160 caracteres">
+        <meta name="keywords" content="dev, desenvolvimento, web, mobile, starcodedigital, manutenção, otimização, data analystic, PowerBI">
+        <meta name="author" content="Jhones Yure-STARCODEDIGITAL // Camila Gonçalves-STARCODEDIGITAL">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> 
-        <link rel="stylesheet" type="text/css" href="/styles/soon.css">
-        <link rel="stylesheet" type="text/css" href="/styles/index.css">
+        <link rel="stylesheet" type="text/css" href="/styles/soon.css"><!-- Em breve -->
+        <link rel="stylesheet" type="text/css" href="/styles/index.css"><!-- Index -->
+        <link rel="stylesheet" type="text/css" href="/styles/homepage.css"><!-- HomePage -->
+        <link rel="stylesheet" type="text/css" href="/styles/header.css"><!-- Header -->
+        <link rel="stylesheet" type="text/css" href="/styles/service.css"><!-- services -->
+        <link rel="stylesheet" type="text/css" href="/styles/about.css"><!-- about -->
+        <link rel="stylesheet" type="text/css" href="/styles/tech.css"><!-- tech -->
+        <link rel="stylesheet" type="text/css" href="/styles/footer.css"><!-- footer -->
     </head>
 
     <body>
-        <header></header>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid color-header">
+                  <a class="navbar-brand col-6" href="#">
+                    <img src="/Images/testeIcon.png" class="logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNav">
+                   <div class="txt">
+                        <a class="nav-link" href="#about">
+                            Sobre
+                        </a>
+                   </div>
+                   <div class="txt">
+                        <a class="nav-link" href="#services">
+                            Serviços
+                        </a>
+                    </div>
+                    <div class="txt">
+                        <a class="nav-link" href="/pages/blog.html">
+                            Blog
+                        </a>
+                   </div>
+                   <div class="txt">
+                    <a class="nav-link" href="/server/contato.html">
+                        Contato
+                    </a>
+               </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
 
         <main>
             <section id="soon">
-                <iframe src="/pages/soon.html"></iframe>
+                <!-- <iframe class="iframe" src="/pages/soon.html" ></iframe> -->
+            </section>
+
+            <section id="start ">
+                <div class="back-color-home">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-7">
+                            <h1 class="txt-home">
+                                StarCode <br>
+                                Digital
+                            </h1>
+                            <h4 class="subtxt-home" >
+                                Desenvolvimento web, <br>
+                                mobile, manutenções e <br>
+                                gestão de dados
+                            </h4>
+                        </div>
+                        <div class="col-md-5 ">
+                            <img src="/images/pcimage.png" id="image-home" class="picture-home">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <section id="services">
+                <div class="services">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <img src="/images/iconStar.png" class="icon-services">
+
+                                <h1 class='title-services'>
+                                    Serviços StarCode
+                                </h1>
+                                <h3 class='subtitle-services'>
+                                    Conheça nossos principais serviços
+                                </h3>
+                            </div>
+                        </div><!-- row -->
+
+                        <div class='row'>
+                            <div class='col-md-4 col-4' id='Otimizacao'>
+                                <img src='/images/pcicon.jfif' class='icon-pc'/>
+                                <div id='mostrar'>
+                                <h3 class='txt-icon'>
+                                    Otimização
+                                </h3>
+                                <li class='ponto-services'>
+                                    Rápidez em seu PC
+                                </li>
+                                <li class='ponto-services'>
+                                    Configuração de CPU e RAM
+                                </li>
+                                <li class='ponto-services'>
+                                    Configurações de drivers
+                                </li>
+                                <li class='ponto-services'>
+                                    Controle de uso 
+                                </li>
+                                </div>
+                            </div>
+                            <div class='col-md-4 col-4' id='Otimizacao'>
+                                <img src='/images/R.png' class='icon-pc'/>
+                                <div id='mostrar'>
+                                <h3 class='txt-icon'>
+                                    Desenvolvimento Web
+                                </h3>
+                                <li class='ponto-services'>
+                                    Criação de sites
+                                </li>
+                                <li class='ponto-services'>
+                                    E-mails profissionais
+                                </li>
+                                <li class='ponto-services'>
+                                    Suporte ao serviço 
+                                </li>
+                                <li class='ponto-services'>
+                                    Dominio e segurança
+                                </li>
+                                </div>
+                            </div>
+                            <div class='col-md-4 col-4' id='Otimizacao'>
+                                <img src='/images/mobile-icon.png' class='icon-pc'/>
+                                <div id='mostrar'>
+                                <h3 class='txt-icon'>
+                                    Mobile
+                                </h3>
+                                <li class='ponto-services'>
+                                    Desenvolvimento de App
+                                </li>
+                                <li class='ponto-services'>
+                                    Sistemas Android
+                                </li>
+                                <li class='ponto-services'>
+                                    E-commerce
+                                </li>
+                                <li class='ponto-services'>
+                                    Suporte ao serviço 
+                                </li>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class='row'>
+                        <div class='col-md-4 col-4' id='Otimizacao'>
+                            <img src='/images/config.png' class='icon-pc'/>
+                            <div id='mostrar'>
+                            <h3 class='txt-icon'>
+                                Manutenção
+                            </h3>
+                            <li class='ponto-services'>
+                                Repardos em hardware
+                            </li>
+                            <li class='ponto-services'>
+                                Instalação de S.O
+                            </li>
+                            <li class='ponto-services'>
+                                Limpeza de hardware
+                            </li>
+                            <li class='ponto-services'>
+                                Montagem de computador
+                            </li>
+                            </div>
+                        </div>
+                        <div class='col-md-4 col-4' id='Otimizacao'>
+                            <img src='/images/sql.png' class='icon-pc'/>
+                            <div id='mostrar'>
+                            <h3 class='txt-icon'>
+                                Banco de dados
+                            </h3>
+                            <li class='ponto-services'>
+                                Serviço na nuvem
+                            </li>
+                            <li class='ponto-services'>
+                                Backup
+                            </li>
+                            <li class='ponto-services'>
+                                Servidor rápido
+                            </li>
+                            
+                            </div>
+                        </div>
+                        <div class='col-md-4 col-4' id='Otimizacao'>
+                            <img src='/images/data.png' class='icon-pc'/>
+                            <div id='mostrar'>
+                            <h3 class='txt-icon'>
+                                DataCenter
+                            </h3>
+                            <li class='ponto-services'>
+                                Dashboard
+                            </li>
+                            <li class='ponto-services'>
+                                Tomada de decisão
+                            </li>
+                            <li class='ponto-services'>
+                                Dados em tempo real
+                            </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 button-center">
+                    <a href="/pages/blog.html">
+                        <button class="button">
+                            Saiba mais
+                        </button>
+                    </a>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="back-color-home">
+                <div class="container">
+                    <div class="row back-color-home">
+                        <div class="col-md-12">
+                            <img src="/images/iconbranco.png" class="icon-about">
+                        </div>
+                        <div class="col-md-6">
+                            <h1 class="title-about">
+                                Quem somos
+                            </h1>
+                            <p class="txt-about">
+                                Somos a StarCodedigital, uma equipe de profissionais apaixonados por
+                                tecnologia e inovação. Oferecemos serviços de criação de sites e aplicativos
+                                de alta qualidade, de forma remota e com total segurança para nossos clientes.
+                                <br>
+                                Nossa missão é ajudar empresas a alcançarem seus objetivos através da 
+                                tecnologia, criando soluções personalizadas e eficientes que agreguem valor
+                                aos seus negócios. Acreditamos na importância da colaboração e 
+                                transparência em nossos processos, sempre buscando entender as 
+                                necessidades de cada cliente para entregarmos projetos que atendam suas 
+                                expectativas.
+                                <br>
+                                Nossa equipe está sempre atualizada nas últimas tendências e tecnologias 
+                                para oferecer soluções de ponta aos nossos clientes. Estamos 
+                                comprometidos em oferecer um serviço excepcional, desde o primeiro 
+                                contato até a entrega final do projeto.
+                                Estamos ansiosos para trabalhar com você e ajudá-lo a transformar suas 
+                                ideias em realidade. Entre em contato conosco e descubra como podemos 
+                                ajudá-lo a alcançar seus objetivos através da tecnologia.
+                                
+ 
+                            </p>
+                            <a href="/pages/about.html" class='saiba-about'>
+                                Saiba mais >
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/images/workteam.png" id="image-about" class="picture-about">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <section id="tech">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="/images/iconStar.png" class="icon-tech">
+                        </div>
+                        <div class="col-md-8">
+                            <h1 class='title-tech'>
+                                Tecnologias Usadas pela StarCode
+                            </h1>
+                            <div class='row'>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/windowns.png' class='tech-icon' title='Windows'/>
+                                </div>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/team.png' class='tech-icon' title='TeamViewer'/>
+                                </div>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/mteam.png' class='tech-icon' title='Microsoft Teams'/>
+                                </div>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/any.jfif' class='tech-icon' title='AnyDesk'/>
+                                </div>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/power.png' class='tech-icon' title='PowerBI'/>
+                                </div>
+                            </div>
+                            <div class='row'>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/node.png' class='tech-icon' title='Node.js'/>
+                                </div>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/csharp.png' class='tech-icon' title='CSharp'/>
+                                </div>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/react.png' class='tech-icon' title='React-Native'/>
+                                </div>
+                                <div class='col-md-2 col-4 center-tech'>
+                                    <img src='/images/next.png' class='tech-icon' title='Next.Js'/>
+                                </div>
+                                <div class='col-md-2 col-4'>
+                                    <img src='/images/mysql.png' class='tech-icon' title='Banco de dados'/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <img src="/images/arvotech.png" id="image-home" class="picture-home">
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
-        <footer></footer>
+        <footer>
+            <div class="container-fluid">
+                <div class="row back-color-footer">
+                    <div class="col-md-3 col-6 center-tech">
+                        <a href="index.html">
+                            <img src="/images/iconbranco.png" class="icon-footer">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <h4 class='title-footer'>
+                            StarCode
+                        </h4>
+                        <a href='#about' class='txt-footer'>
+                            <p class='txt-info'>
+                                Sobre
+                            </p>
+                        </a>
+                        <a href='contato.html' class='txt-footer'>
+                            <p class='txt-info'>
+                                Contato
+                            </p>
+                        </a>
+                        <a href='#services' class='txt-footer'>
+                            <p class='txt-info'>
+                                Soluções
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <h4 class='title-footer'>
+                            Fale Conosco
+                        </h4>
+                        <p class='txt-footer'>
+                            contato@starcodigital.com.br
+                        </p>
+                        <p class='txt-footer'>
+                            +55 (51) 9.9411-9063
+                        </p>
+                        <p class='txt-footer'>
+                            Vila Jardim<br/>
+                            Porto Alegre, Brasil
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <h4 class='title-footer'>
+                            Redes Sociais
+                        </h4>
+                        <a href='https://www.instagram.com/starcodedigital/' target="_blank">
+                            <img src='/images/insta.png' class='icon-rede'/>
+                        </a>
+                        <a href='https://www.linkedin.com/company/starcodedigital/' target="_blank">
+                            <img src='/images/linkdin.png' class='icon-rede'/>
+                        </a>
+                       <!--  <a href=''>
+                            <img src='/images/youtube.png' class='icon-rede'/>
+                        </a> -->
+                        <a href='' target="_blank">
+                            <img src='/images/face.png' class='icon-rede'/>
+                        </a>
+                    </div>
+                    <p class="copyright">
+                        Direitos reservados da StarCode Digital © 2023
+                    </p>
+                </div>
+            </div>
+        </footer>
     </body>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </html>
