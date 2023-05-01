@@ -15,6 +15,9 @@ function escreverMensagem() {
 setTimeout(escreverMensagem, velocidade);
 
 
+
+
+
 /* AJAX */
 var form = document.getElementById('meu-form');
 
@@ -26,7 +29,7 @@ form.addEventListener('submit', function(event) {
   var xhr = new XMLHttpRequest();
   
   // Define o método HTTP como POST e o URL do arquivo PHP
-  xhr.open('POST', 'processa-form.php', true);
+  xhr.open('POST', 'contato.php', true);
   
   // Define o tipo de conteúdo da solicitação como JSON
   xhr.setRequestHeader('Content-type', 'application/json');
