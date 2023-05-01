@@ -106,7 +106,7 @@
                   Contato
                 </h1>
                 <div class="img-form">
-                  <form id="meu-form" action="contato.php" method="POST" >
+                  <form id="meu-form" action="contato.php" method="POST" onsubmit="return validateForm()">
                     <label for="nome"></label><br>
                     <input type="text" placeholder="Nome" id="nome" name="nome" class="input-form" required><br>
 
@@ -221,6 +221,27 @@
       
       xhr.send(new FormData(form));
     });
+
+    //VALIDAR FORMULARIO
+    function validateForm() {
+      // Obtenha o formulário e os campos de entrada
+      var form = document.getElementById("myForm");
+      var name = form.elements["nome"];
+      var email = form.elements["email"];
+      var mensagem = form.elements["mensagem"];
+
+      // Verifique se o nome e o email estão vazios
+      if (name.value == "" || email.value == "" || mensagem.value) {
+        // Se sim, exiba uma mensagem de erro
+        alert("Por favor, preencha todos os campos!");
+        // Retorne falso para impedir que o formulário seja enviado
+        return false;
+      } else {
+        // Se não, permita que o formulário seja enviado
+        return true;
+      }
+    }
+
   </script>
   
   
