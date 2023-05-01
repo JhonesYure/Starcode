@@ -1,8 +1,8 @@
 <?php
-$servername = "sql891.main-hosting.eu";
-$username = "contato";
+$servername = "auth-db891.hstgr";
+$username = "u820043173_contato";
 $password = "kU:=B^3A+";
-$dbname = "contato";
+$dbname = "u820043173_contato";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
