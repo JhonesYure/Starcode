@@ -1,6 +1,6 @@
 <?php
 $servername = "sql891.main-hosting.eu";
-$username = "u820043173_contato";
+$username = "contato";
 $password = "kU:=B^3A+";
 $dbname = "contato";
 
