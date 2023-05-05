@@ -35,7 +35,7 @@
 
         
             // Envia o e-mail
-            if (mail($destinatario, $title, $mensagem_email)) {
+            if (mail($destinatario, $title, $mensagem_email, $headers)) {
                 echo "";
             } else {
                 echo "";
