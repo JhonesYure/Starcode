@@ -26,7 +26,9 @@
             // Corpo do e-mail
             $mensagem_email = "Nome: " . $nome . "\n";
             $mensagem_email .= "E-mail: " . $email . "\n";
+            $mensagem_email = "Assunto: " . $assunto . "\n";
             $mensagem_email .= "Mensagem: " . $mensagem . "\n";
+            
 
             // Cabeçalho do e-mail
             $headers  = "MIME-Version: 1.0" . "\r\n";
@@ -35,7 +37,7 @@
 
         
             // Envia o e-mail
-            if (mail($destinatario, $title, $mensagem_email, $headers)) {
+            if (mail($destinatario, $title,$assunto, $mensagem_email, $headers)) {
                 echo "";
             } else {
                 echo "";
