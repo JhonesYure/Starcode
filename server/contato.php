@@ -8,10 +8,9 @@
     $email=$_POST['email'];
     $assunto=$_POST['assunto'];
     $mensagem=$_POST['mensagem'];
+    $localidade = $_POST['localidade'];
 
-    $localidade=$_POST['localidade'];
-
-    $sql = "INSERT INTO contatos (nome, telefone, email,localidade, assunto, mensagem, data) VALUES ('$nome','$telefone', '$email','$localidade', $assunto', '$mensagem', '$data')";
+    $sql = "INSERT INTO contatos (nome, telefone, email, assunto, mensagem, data, localidade) VALUES ('$nome','$telefone', '$email','$assunto', '$mensagem', '$data', '$localidade')";
 
           //EMAIL 
           if ($_SERVER["REQUEST_METHOD"] == "POST") {
