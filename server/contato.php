@@ -6,11 +6,11 @@
     $nome=$_POST['nome'];
     $telefone=$_POST['telefone'];
     $email=$_POST['email'];
-    $localidade=$_POST['localidade'];
+   
     $assunto=$_POST['assunto'];
     $mensagem=$_POST['mensagem'];
 
-    $sql = "INSERT INTO contatos (nome, telefone, email, localidade, assunto, mensagem, data) VALUES ('$nome','$telefone', '$email','$localidade', $assunto', '$mensagem', '$data')";
+    $sql = "INSERT INTO contatos (nome, telefone, email, assunto, mensagem, data) VALUES ('$nome','$telefone', '$email', $assunto', '$mensagem', '$data')";
 
           //EMAIL 
           if ($_SERVER["REQUEST_METHOD"] == "POST") {
