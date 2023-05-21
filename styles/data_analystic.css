@@ -1,0 +1,23 @@
+.back
+{
+    color: black;
+    margin-left: 5%;
+    font-size:20px;
+}
+.center 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px){
+    .img{
+        width: 100%;
+        margin-top: 10%;
+    }
+}
+.title, .sub
+{
+    font-weight: bold;
+    text-align: center;
+}
