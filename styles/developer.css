@@ -1,0 +1,60 @@
+.dev-image
+{
+    background-image: url(/images/dev-blog.png);
+    width:100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.title
+{
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 7%;
+}
+@media (max-width: 767px){
+    .title{
+        font-size: 50px;
+        margin-top: 30%;
+    }
+}
+.back
+{
+    color: black;
+    margin-left: 5%;
+    font-size:20px;
+}
+#voltar-topo {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    z-index: 9999;
+  }
+  
+  #voltar-topo.show {
+    display: block;
+  }
+  .img-dev
+  {
+    width: 100%;
+    margin-top: 15%;
+  }
+  .img-mob 
+  {
+    width: 100%;
+  }
+  .web-title, .mobile-title 
+  {
+    font-size: 50px;
+    font-weight: bold;
+  }
